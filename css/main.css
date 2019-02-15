@@ -1,3 +1,224 @@
-/*
- * Estilos de tu proyecto
- */
+@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+ .dark{
+     background-color: #2C3E50;
+}
+ .green {
+     background-color: #18BC9C;
+}
+ header{
+     height: 80px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+}
+ .containerHeader {
+     height: 80px;
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+ .logo{
+     color: #FFFFFF;
+     font-size: 30px;
+     font-weight: 700;
+     font-family: 'Montserrat';
+     letter-spacing: -2px;
+}
+ ul{
+     color: #FFFFFF;
+     font-size: 15px;
+     font-weight: 700;
+     font-family: 'Montserrat';
+     display: flex;
+     justify-content: space-between;
+}
+ li {
+     list-style: none;
+     padding: 6px;
+}
+ h1 {
+     font-family: 'Montserrat', sans-serif;
+}
+ main{
+     color: #FFFFFF;
+     font-size: 35px;
+     font-weight: 900;
+     height: 600px;
+     padding-top: 81px;
+     padding-bottom: 81px;
+}
+ .start {
+     margin-top: 15px;
+}
+ .containerMain{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+ .lineStar {
+     width: 300px;
+     height: 5px;
+     margin-top: 15px;
+     position: relative;
+}
+ .whiteStar {
+     background-color: white;
+}
+ .darkStar {
+     background-color: #212529;
+}
+ .lineStar .fa-star {
+     font-size: 27px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     margin-top: -25px;
+     margin-left: -25px;
+     padding: 10px;
+}
+ .whiteLine {
+     color: white;
+     background: #18BC9C;
+}
+ .darkLine {
+     color: #212529;
+     background: white;
+}
+ .cargos {
+     font-family: 'Lato', sans-serif;
+     font-size: 25px;
+     margin-top: 30px;
+}
+ .containerImages {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-top: 80px;
+     color: #212529;
+     font-size: 30px;
+     padding-bottom: 80px;
+}
+ .gallery {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     width: 1000px;
+     height: 500px;
+     margin-top: 15px;
+}
+ .gallery img{
+     height: 230px;
+     width: 315px;
+     margin: 8px;
+}
+ .containerAbout {
+     color: #FFFFFF;
+     height: 500px;
+     padding-top: 81px;
+     padding-bottom: 81px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+ .about {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 30px;
+     letter-spacing: -2px;
+}
+ .article {
+     display: flex;
+     width: 40%;
+     font-family: 'Lato', sans-serif;
+     font-size: 20px;
+     padding: 10px;
+     margin-top: 15px;
+}
+ button{
+     background-color: #18BC9C;
+     color: #FFFFFF;
+     font-size: 20px;
+     font-family: 'Lato', sans-serif;
+     font-weight: 400;
+     border: 2px solid;
+     border-radius: 5px;
+     padding: 8px;
+     margin: 30px;
+}
+ .buttonDownload {
+     padding: 180px;
+}
+ .containerContact {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-top: 81px;
+     color: #212529;
+     padding-bottom: 80px;
+}
+ .contact {
+     font-family: 'Lato', sans-serif;
+     font-size: 30px;
+}
+ form {
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+ form button {
+     width: 80px;
+}
+ input, textarea{
+     color: #5d646be3;
+     font-size: 20px;
+     font-family: 'Lato', sans-serif;
+     font-weight: 700;
+     width: 660px;
+     border: none;
+     border-bottom: 1px solid #ced4da;
+     padding: 30px;
+}
+ footer {
+     height: 250px;
+     width: 100%;
+}
+ .containerFooter {
+     display: flex;
+     justify-content: space-evenly;
+     text-align: center;
+     padding-top: 40px;
+     color: white;
+     font-family: 'Lato', sans-serif;
+     font-size: 15px;
+     padding-bottom: 60px;
+}
+ h2 {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 30px;
+     letter-spacing: -2px;
+}
+ .item-footer {
+     display: block;
+     height: auto;
+     border: 2px solid;
+     border-radius: 50%;
+     padding: 10px;
+}
+ .copyright {
+     text-align: center;
+     color: white;
+     font-family: 'Lato', sans-serif;
+     font-size: 15px;
+     align-items: flex-end;
+     font-weight: 300px;
+}
+ .freelancer span {
+     color: #18BC92;
+}
+ 
