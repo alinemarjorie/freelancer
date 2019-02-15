@@ -1,36 +1,42 @@
 @import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
- *{
+*{
      margin: 0;
      padding: 0;
      box-sizing: border-box;
 }
- .dark{
+
+.dark{
      background-color: #2C3E50;
 }
- .green {
+
+.green {
      background-color: #18BC9C;
 }
- header{
+
+header{
      height: 80px;
      width: 100%;
      display: flex;
      justify-content: center;
 }
- .containerHeader {
+
+.containerHeader {
      height: 80px;
      width: 100%;
      display: flex;
      justify-content: space-around;
      align-items: center;
 }
- .logo{
+
+.logo{
      color: #FFFFFF;
      font-size: 30px;
      font-weight: 700;
      font-family: 'Montserrat';
      letter-spacing: -2px;
 }
- ul{
+
+ul{
      color: #FFFFFF;
      font-size: 15px;
      font-weight: 700;
@@ -38,14 +44,17 @@
      display: flex;
      justify-content: space-between;
 }
- li {
+
+li {
      list-style: none;
      padding: 6px;
 }
- h1 {
+
+h1 {
      font-family: 'Montserrat', sans-serif;
 }
- main{
+
+main{
      color: #FFFFFF;
      font-size: 35px;
      font-weight: 900;
@@ -53,27 +62,33 @@
      padding-top: 81px;
      padding-bottom: 81px;
 }
- .start {
+
+.start {
      margin-top: 15px;
 }
- .containerMain{
+
+.containerMain{
      display: flex;
      flex-direction: column;
      align-items: center;
 }
- .lineStar {
+
+.lineStar {
      width: 300px;
      height: 5px;
      margin-top: 15px;
      position: relative;
 }
- .whiteStar {
+
+.whiteStar {
      background-color: white;
 }
- .darkStar {
+
+.darkStar {
      background-color: #212529;
 }
- .lineStar .fa-star {
+
+.lineStar .fa-star {
      font-size: 27px;
      position: absolute;
      top: 50%;
@@ -82,20 +97,24 @@
      margin-left: -25px;
      padding: 10px;
 }
- .whiteLine {
+
+.whiteLine {
      color: white;
      background: #18BC9C;
 }
- .darkLine {
+
+.darkLine {
      color: #212529;
      background: white;
 }
- .cargos {
+
+.cargos {
      font-family: 'Lato', sans-serif;
      font-size: 25px;
      margin-top: 30px;
 }
- .containerImages {
+
+.containerImages {
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -104,7 +123,8 @@
      font-size: 30px;
      padding-bottom: 80px;
 }
- .gallery {
+
+.gallery {
      display: flex;
      flex-wrap: wrap;
      justify-content: space-between;
@@ -112,12 +132,14 @@
      height: 500px;
      margin-top: 15px;
 }
- .gallery img{
+
+.gallery img{
      height: 230px;
      width: 315px;
      margin: 8px;
 }
- .containerAbout {
+
+.containerAbout {
      color: #FFFFFF;
      height: 500px;
      padding-top: 81px;
@@ -126,12 +148,14 @@
      flex-direction: column;
      align-items: center;
 }
- .about {
+
+.about {
      font-family: 'Montserrat', sans-serif;
      font-size: 30px;
      letter-spacing: -2px;
 }
- .article {
+
+.article {
      display: flex;
      width: 40%;
      font-family: 'Lato', sans-serif;
@@ -139,7 +163,8 @@
      padding: 10px;
      margin-top: 15px;
 }
- button{
+
+button{
      background-color: #18BC9C;
      color: #FFFFFF;
      font-size: 20px;
@@ -150,10 +175,12 @@
      padding: 8px;
      margin: 30px;
 }
- .buttonDownload {
+
+.buttonDownload {
      padding: 180px;
 }
- .containerContact {
+
+.containerContact {
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -161,20 +188,24 @@
      color: #212529;
      padding-bottom: 80px;
 }
- .contact {
+
+.contact {
      font-family: 'Lato', sans-serif;
      font-size: 30px;
 }
- form {
+
+form {
      margin: 0 auto;
      display: flex;
      flex-direction: column;
      justify-content: center;
 }
- form button {
+
+form button {
      width: 80px;
 }
- input, textarea{
+
+input, textarea{
      color: #5d646be3;
      font-size: 20px;
      font-family: 'Lato', sans-serif;
@@ -184,11 +215,13 @@
      border-bottom: 1px solid #ced4da;
      padding: 30px;
 }
- footer {
+
+footer {
      height: 250px;
      width: 100%;
 }
- .containerFooter {
+
+.containerFooter {
      display: flex;
      justify-content: space-evenly;
      text-align: center;
@@ -198,19 +231,22 @@
      font-size: 15px;
      padding-bottom: 60px;
 }
- h2 {
+
+h2 {
      font-family: 'Montserrat', sans-serif;
      font-size: 30px;
      letter-spacing: -2px;
 }
- .item-footer {
+
+.item-footer {
      display: block;
      height: auto;
      border: 2px solid;
      border-radius: 50%;
      padding: 10px;
 }
- .copyright {
+
+.copyright {
      text-align: center;
      color: white;
      font-family: 'Lato', sans-serif;
@@ -218,7 +254,8 @@
      align-items: flex-end;
      font-weight: 300px;
 }
- .freelancer span {
+
+.freelancer span {
      color: #18BC92;
 }
  
